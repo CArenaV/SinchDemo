@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17910B694AB32F2F57849BB /* Pods_SinchDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6828B46C58081CA93E40998 /* Pods_SinchDemo.framework */; };
 		AA0096F91F51D8CD00515F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0096F81F51D8CD00515F4A /* AppDelegate.swift */; };
 		AA0096FB1F51D8CD00515F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0096FA1F51D8CD00515F4A /* ViewController.swift */; };
 		AA0096FE1F51D8CD00515F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0096FC1F51D8CD00515F4A /* Main.storyboard */; };
 		AA0097001F51D8CD00515F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0096FF1F51D8CD00515F4A /* Assets.xcassets */; };
 		AA0097031F51D8CD00515F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0097011F51D8CD00515F4A /* LaunchScreen.storyboard */; };
+		AA8787211F52E11D00F4B704 /* CallScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8787201F52E11D00F4B704 /* CallScreen.xib */; };
+		AAF008EC1F51FC9F0083AC42 /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF008EB1F51FC9F0083AC42 /* FriendListVC.swift */; };
+		AAF008EE1F5207190083AC42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF008ED1F5207190083AC42 /* Constants.swift */; };
+		AAF008F01F520DD10083AC42 /* FriendViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF008EF1F520DD10083AC42 /* FriendViewCell.swift */; };
+		AAF008F21F52266F0083AC42 /* CustomCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF008F11F52266F0083AC42 /* CustomCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0560B380E45FB7A7667C5AB3 /* Pods-SinchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinchDemo/Pods-SinchDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8832BD65A581946556F5C3A8 /* Pods-SinchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinchDemo/Pods-SinchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0096F51F51D8CD00515F4A /* SinchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0096F81F51D8CD00515F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA0096FA1F51D8CD00515F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,13 @@
 		AA0096FF1F51D8CD00515F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0097021F51D8CD00515F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA0097041F51D8CD00515F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2EA5051F51D9CF00D5B8CB /* SinchDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SinchDemo-Bridging-Header.h"; path = "SinchDemo/SinchDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA8787201F52E11D00F4B704 /* CallScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallScreen.xib; sourceTree = "<group>"; };
+		AAF008EB1F51FC9F0083AC42 /* FriendListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
+		AAF008ED1F5207190083AC42 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AAF008EF1F520DD10083AC42 /* FriendViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewCell.swift; sourceTree = "<group>"; };
+		AAF008F11F52266F0083AC42 /* CustomCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellDelegate.swift; sourceTree = "<group>"; };
+		E6828B46C58081CA93E40998 /* Pods_SinchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinchDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17910B694AB32F2F57849BB /* Pods_SinchDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B69DC73B51C08DAFF280D8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6828B46C58081CA93E40998 /* Pods_SinchDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DBFF137F4675AF2285E2F8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8832BD65A581946556F5C3A8 /* Pods-SinchDemo.debug.xcconfig */,
+				0560B380E45FB7A7667C5AB3 /* Pods-SinchDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA0096EC1F51D8CD00515F4A = {
 			isa = PBXGroup;
 			children = (
+				AA2EA5051F51D9CF00D5B8CB /* SinchDemo-Bridging-Header.h */,
 				AA0096F71F51D8CD00515F4A /* SinchDemo */,
 				AA0096F61F51D8CD00515F4A /* Products */,
+				5DBFF137F4675AF2285E2F8B /* Pods */,
+				2B69DC73B51C08DAFF280D8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +92,12 @@
 			children = (
 				AA0096F81F51D8CD00515F4A /* AppDelegate.swift */,
 				AA0096FA1F51D8CD00515F4A /* ViewController.swift */,
+				AAF008ED1F5207190083AC42 /* Constants.swift */,
 				AA0096FC1F51D8CD00515F4A /* Main.storyboard */,
+				AAF008EF1F520DD10083AC42 /* FriendViewCell.swift */,
+				AAF008EB1F51FC9F0083AC42 /* FriendListVC.swift */,
+				AA8787201F52E11D00F4B704 /* CallScreen.xib */,
+				AAF008F11F52266F0083AC42 /* CustomCellDelegate.swift */,
 				AA0096FF1F51D8CD00515F4A /* Assets.xcassets */,
 				AA0097011F51D8CD00515F4A /* LaunchScreen.storyboard */,
 				AA0097041F51D8CD00515F4A /* Info.plist */,
@@ -71,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA0097071F51D8CD00515F4A /* Build configuration list for PBXNativeTarget "SinchDemo" */;
 			buildPhases = (
+				F0650C6B1F173CDEDCB7EC45 /* [CP] Check Pods Manifest.lock */,
 				AA0096F11F51D8CD00515F4A /* Sources */,
 				AA0096F21F51D8CD00515F4A /* Frameworks */,
 				AA0096F31F51D8CD00515F4A /* Resources */,
+				60C5AC18F655F7844B663B97 /* [CP] Embed Pods Frameworks */,
+				220C20D4FD49842361DA7AB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,10 +171,65 @@
 				AA0097031F51D8CD00515F4A /* LaunchScreen.storyboard in Resources */,
 				AA0097001F51D8CD00515F4A /* Assets.xcassets in Resources */,
 				AA0096FE1F51D8CD00515F4A /* Main.storyboard in Resources */,
+				AA8787211F52E11D00F4B704 /* CallScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220C20D4FD49842361DA7AB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinchDemo/Pods-SinchDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60C5AC18F655F7844B663B97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SinchDemo/Pods-SinchDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinchDemo/Pods-SinchDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0650C6B1F173CDEDCB7EC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SinchDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA0096F11F51D8CD00515F4A /* Sources */ = {
@@ -138,7 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0096FB1F51D8CD00515F4A /* ViewController.swift in Sources */,
+				AAF008F21F52266F0083AC42 /* CustomCellDelegate.swift in Sources */,
 				AA0096F91F51D8CD00515F4A /* AppDelegate.swift in Sources */,
+				AAF008F01F520DD10083AC42 /* FriendViewCell.swift in Sources */,
+				AAF008EC1F51FC9F0083AC42 /* FriendListVC.swift in Sources */,
+				AAF008EE1F5207190083AC42 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +313,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "SinchDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -252,6 +356,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SinchDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -259,6 +364,7 @@
 		};
 		AA0097081F51D8CD00515F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8832BD65A581946556F5C3A8 /* Pods-SinchDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4PBQYSSP8B;
@@ -266,12 +372,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shalabh.Chattost.SinchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SinchDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		AA0097091F51D8CD00515F4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0560B380E45FB7A7667C5AB3 /* Pods-SinchDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4PBQYSSP8B;
@@ -279,6 +387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shalabh.Chattost.SinchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SinchDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +411,7 @@
 				AA0097091F51D8CD00515F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
